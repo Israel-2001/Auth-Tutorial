@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "backend/index.js",
-  "scripts": {
-    "dev": "NODE_ENV=development nodemon backend/index.js",
-		"start": "NODE_ENV=production node backend/index.js",
+	"scripts": {
+		"dev": "NODE_ENV=development nodemon Backend/index.js",
+		"start": "NODE_ENV=production node Backend/index.js",
     "build": "npm install && npm install --prefix Frontend && npm run build --prefix Frontend"
   },
   "keywords": [],
@@ -21,7 +21,8 @@
     "express": "^4.21.0",
     "jsonwebtoken": "^9.0.2",
     "mailtrap": "^3.4.0",
-    "mongoose": "^8.6.2"
+    "mongoose": "^8.6.2",
+    "node": "^22.9.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
